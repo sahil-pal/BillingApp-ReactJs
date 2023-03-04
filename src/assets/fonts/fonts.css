@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'epilogueitalic';
+  src: url('../fonts/epilogue-italic-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/epilogue-italic-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'epilogueregular';
+  src: url('../fonts/epilogue-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/epilogue-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'montserratthin_italic';
+  src: url('../fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'montserratthin';
+  src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'pacificoregular';
+  src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
+       url('../fonts/pacifico-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
