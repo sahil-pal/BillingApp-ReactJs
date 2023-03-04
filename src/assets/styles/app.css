@@ -5,6 +5,7 @@
   --body-bg :#131319;
   --gray : #4C5463;
   --black : #000000;
+  --light-gray : 
 }
 * {
   margin: 0%;
@@ -99,18 +100,43 @@ header .topbar .exit{
   width: 5%;
 }
 header .topbar .header .logo{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'pacificoregular';
   width: 16%;
   background-color: var(--logo-green);
   padding: 8px 2px;
-  border-radius: 5px;
 }
 header .topbar .header .page-heading{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   width: 60%;
 }
 header .topbar .header .timestamp{
   width: 21%;
+}
+
+/* Bill Details */
+.bill-details{
+  margin: 10px 0px;
+  align-items: center;
+}
+.bill-details .input-box{
+  width: 32%;
+}
+.bill-details .input-box label{
+  font-size: 1.1rem;
+  padding: 0px 5px;
+}
+.bill-details .input-box label input,
+.bill-details .input-box label select{
+  width: 210px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+  height: 40px;
+  color : var(--black);
+  font-family: 'epilogueregular';
+}
+.bill-details .input-box label input:disabled{
+  background-color: #bbd4d4;
 }
 

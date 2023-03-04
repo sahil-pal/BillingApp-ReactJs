@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BoxWidget } from "../widgets/BoxWidet";
+import { BoxWidget } from "../widgets/BoxWidget";
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ export const TopBar = () =>{
     useEffect(()=>{
         var date = new Date();
         const time = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-        date = `${date.getDay()}/${date.getMonth()}/${date.getFullYear()}`;
+        date = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
         const currDateTime = {date:date,time:time};
         setCurrDateTime(currDateTime);
     },[]);
