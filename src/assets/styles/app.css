@@ -30,6 +30,7 @@ body {
 /* Helper classes */
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 .col{
   display: flex;
@@ -136,7 +137,85 @@ header .topbar .header .timestamp{
   color : var(--black);
   font-family: 'epilogueregular';
 }
-.bill-details .input-box label input:disabled{
+.bill-details .input-box label input:disabled,
+main .main section .item-details input:disabled{
   background-color: #bbd4d4;
+}
+
+
+/* Main: Section1 : Add Items */
+main{
+  margin: 6vh 0px;
+}
+main .main section{
+  margin: 8px 0px;
+}
+main .main section:first-child{
+  background-color: var(--logo-green);
+}
+main .main section .item-add{
+  width: 100%;
+  padding: 13px 5px;
+  color: var(--black);
+}
+main .main section .item-add .item-details{
+  width: 12%;
+}
+main .main section .item-add .item-details h3{
+  text-transform: capitalize;
+}
+main .main section .item-add .item-details input,
+main .main section .item-add .item-details select{
+  width: 140px;
+  margin: 5px 0px;
+  padding: 8px 4px;
+  border-radius: 8px;
+}
+main .main section .crud-btns{
+  margin: 8px auto;
+  padding: 5px;
+  width: 50%;
+}
+main .main section .crud-btns .crud-btn{
+  border-radius: 4px;
+  background-color: var(--body-bg);
+}
+
+/* main : Section2 : ViewItems */
+main .main section .divison-section{
+  width: 100%;
+}
+main .main section .divison-section .item-view{
+  width: 70%;
+  /* background-color: #4ACD8D; */
+}
+main .main section .divison-section .item-view h3{
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+}
+main .main section .divison-section .item-view table{
+  margin: 2px auto;
+  width: 98%;
+  text-transform: capitalize;
+}
+main .main section .divison-section .item-view table thead{
+  background-color: var(--gray);
+  font-size: 18px;
+  font-weight: 800;
+}
+main .main section .divison-section .item-view table thead td{
+  padding: 10px 5px;
+}
+main .main section .divison-section .item-view table tr,
+main .main section .divison-section .item-view table td{
+  border: 1px solid var(--white);
+  padding: 3px 2px;
+}
+
+/* Main: Sidebar */
+main .main section .divison-section aside{
+  width: 29%;
+  background-color: #8451CF;
 }
 

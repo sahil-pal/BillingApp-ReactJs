@@ -9,7 +9,7 @@ export const BillDetails = () => {
         <InputBoxWidget
           label="Payment Options"
           inputType="select"
-          options={dropDownConstants}
+          options={dropDownConstants.paymentOptions}
         />
         <InputBoxWidget
           label="Mobile Number"

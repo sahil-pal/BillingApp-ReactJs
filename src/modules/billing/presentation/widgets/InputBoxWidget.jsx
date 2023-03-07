@@ -8,8 +8,8 @@ export const InputBoxWidget = (props) => {
       return (
         <select name={props.label} id={props.label} required>
           {
-            props.options.map((o)=>{
-                return <option value={o.value}>{o.name}</option>;
+            props.options.map((o,index)=>{
+                return <option key={index} value={o.value}>{o.name}</option>;
             })
           }
         </select>
